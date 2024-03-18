@@ -8,6 +8,8 @@ HELP.md
 .settings
 .springBeans
 .sts4-cache
+node_modules
+build
 
 ### IntelliJ IDEA ###
 .idea
