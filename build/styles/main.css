@@ -1,0 +1,93 @@
+.marginBottom8 {
+  margin-bottom: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Truculenta', sans-serif;
+}
+body {
+  background-color: #8e44ad;
+  color: #dfe6e9;
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 70%;
+  }
+}
+header {
+  padding-bottom: 24px;
+}
+.profile-avatar {
+  max-height: 240px;
+  display: block;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+}
+.profile-bio {
+  text-align: center;
+}
+.profile-bio-name {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.profile-bio-subtitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.profile-bio-description {
+  font-size: 18px;
+  opacity: 0.7;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 240px;
+  width: 100%;
+  margin: 0 auto;
+}
+.social-links li img {
+  transition: all ease 0.3s;
+}
+.social-links li img:hover {
+  transform: scale(1.4);
+}
+.projects-list {
+  margin-top: 32px;
+}
+.projects-list-item a {
+  text-decoration: none;
+  background-color: #9b59b6;
+  display: block;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #dfe6e9;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 3px solid #9b59b6;
+  transition: all ease 0.7s;
+}
+.projects-list-item a:hover {
+  color: #34495e;
+  background-color: transparent;
+  border-color: #34495e;
+}
