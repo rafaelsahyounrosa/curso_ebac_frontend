@@ -605,6 +605,6 @@ const contaAsHoras = setInterval(function() {
     }
 }, 1000);
 
-},{}]},["8bDoD","3cYfC"], "3cYfC", "parcelRequire63ed")
+},{}]},["8bDoD","3cYfC"], "3cYfC", "parcelRequire592d")
 
 //# sourceMappingURL=main.js.map
