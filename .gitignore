@@ -10,7 +10,6 @@ HELP.md
 .sts4-cache
 node_modules
 .parcel-cache
-dist
 
 ### IntelliJ IDEA ###
 .idea
