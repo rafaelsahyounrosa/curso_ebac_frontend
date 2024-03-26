@@ -7,6 +7,7 @@ HELP.md
 .project
 .settings
 .springBeans
+node_modules
 .sts4-cache
 
 ### IntelliJ IDEA ###
